@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-/* struct Touch {
+  struct Touch {
   const uint8_t Touch;
   uint32_t pressTimes;
   bool touched;
@@ -29,14 +29,8 @@ void loop() {
   }
 }
 
-void IRAM_ATTR call(){
-  person_1.pressTimes+= 1;
-  person_1.touched = true;
-};
 
-*/
-
-volatile int interruptLoop;
+/* volatile int interruptLoop;
 int totalIRP;
 
 hw_timer_t * timer = NULL;
@@ -66,3 +60,4 @@ void loop() {
     Serial.println(totalIRP);
   }
 }
+*/
