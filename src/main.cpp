@@ -28,6 +28,10 @@ void loop() {
     Serial.println("Interrupt Detached!");
   }
 }
+void IRAM_ATTR call(){
+  person_1.pressTimes += 1;
+  person_1.touched = true;
+};
 
 
 /* volatile int interruptLoop;
